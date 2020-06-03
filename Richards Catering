@@ -280,6 +280,7 @@
                 <img src="Burger.png" class="rounded" alt="Tim Hortons" width="300" height="300">
         </button>
     </div>
+    <br>
     <!-- The Modal -->
     <div class="modal" id="myModal1">
         <div class="modal-dialog modal-lg">
@@ -514,8 +515,10 @@
                     </div>
                     <!-- Modal footer -->
                     <div class="modal-footer">
-                        <button type="button" class="btn btn-light" data-dismiss="modal">
-                            <center>Add to Order</center>
+                        <button type="button" class="btn btn-light" data-dismiss="modal" id="Add to Order Burger">
+                            <br>
+                            <button type="button" onclick="Burger()"><center>Add to Order</center> </button>
+                            </br>
                         </button>
                     </div>
                 </div>
@@ -721,6 +724,23 @@
             </select>
             <br>
             <br>
+            <form action="/action_page.php">
+                <label for="birthday">Pick A Date for Delivery:</label>
+                <input type="date" id="birthday" name="birthday">
+                <input type="reset">
+            </form>
+            <br>
+            <br>
+            <form action="/action_page.php">
+                <span class="tab"></span><label for="appt">Select a Time Period:</label>
+                <input type="time" id="appt" name="appt">
+                <input type="reset">
+                <label for="appt">to</label>
+                <input type="time" id="appt" name="appt">
+                <input type="reset">
+            </form>
+            <br>
+            <br>
             <input type="submit" value="Submit">
             <input type="reset">
         </form>
@@ -729,15 +749,7 @@
     <button class="accordion">3. Complete Your Order</button>
     <div class="panel">
         <br>
-        <a href="">
-            <span class="tab"><img src="Paypal.png" alt="HTML tutorialy" style="width:65px;height:50px;border:0"></span>
-        </a>
-        <a href="">
-            <span class="tab"><img src="Visa.png" alt="HTML tutorial" style="width:75px;height:50px;border:0"></span>
-        </a>
-        <a href="">
-            <span class="tab"><img src="Mastercard.png" alt="HTML tutorials" style="width:75px;height:50px;border:0"></span>
-        </a>
+        <p id="demo"></p>
     </div>
 
     <script>
@@ -799,6 +811,30 @@
     </form>
     <br>
     <hr>
+    <br>
+    <br>
+    <br>
+
+    <script>
+
+        function Burger() {
+            let Burger_Cost = prompt('Do you want this item?')
+            if (Burger_Cost == "Yes") {
+                document.getElementById("demo").innerHTML = "Burger ---------- 5.88";
+            } else if (Burger_Cost == "yes") {
+                document.getElementById("demo").innerHTML = "Burger ---------- 5.88";
+            } else if (Burger_Cost == "YES") {
+                document.getElementById("demo").innerHTML = "Burger ---------- 5.88";
+            } else if (Burger_Cost == "YEs") {
+                document.getElementById("demo").innerHTML = "Burger ---------- 5.88";
+            } else if (Burger_Cost == "yES") {
+                document.getElementById("demo").innerHTML = "Burger ---------- 5.88";
+            } else {
+                document.getElementById("demo").innerHTML = "Error in Server";
+            }
+        }
+    </script>
+
 </body>
 
 </html>
