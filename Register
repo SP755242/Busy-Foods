@@ -140,6 +140,74 @@
         </form>
 
     </center>
-
+    
+    <h2>Why Choose Busy Foods:</h2>
+    <br>
+    <p>Busy Foods is an easy and safe way to order your favourite food online. With millions of seletions, Busy Foods is the perfect
+        place to order almost any food you want. Also, Busy Foods gives you the choice of almost any restaurant you like. Busy Foods
+        provides you with 24 hour service all 7 days of the week making it a convenient and reliable source of food, no matter where you are
+        and when you need it, Busy Foods will be there. Literally, Busy Foods serves in every country in the world. After all we are 
+        made to suit your Busy and on the go lives </p>
+        
+    <br>
+    <hr>
+        <h2>Why Create an Account:</h2>
+    <br>
+    <p>Busy Foods is always trying to get you special offers and cheaper prices for your favourite foods. By creating an account you
+        allow us to do just that! By registering for Busy Foods we can provide you with more special offers, to get you, your favourite
+        foods, at a cheaper price. Plus every time you order a meal that is $20 or more, you get points. Not just any points, but Busy Foods
+        points! These points allow you to buy free meals when you have enough points. They give you the ability to get free meals wherever
+        you are and whenever you need. Double plus, by creating an account with us, you are making your life SOOO much easier. This allows 
+        you to quickly just go to your account and choose your favourite meals, as you can personalize the restaurants and meals that
+        are you favourite. So, just by creating an account you get, not a double win, but a TRIPLE WIN! And the question in the heading should
+        not be "Why create an account", at this point, it should be "Why not create an account".</p>
+        
+    <br>
+    <hr>
+        <h2>Deal Days:</h2>
+    <br>
+    <p>Everyday is a special day with us at Busy Foods, and we always try to make you feel special. Just like our deal days. 
+    Deal days are days where there are special deals for certain meals and at certain restaurants. Below is a graph with the 7 days
+    of the week and the special offers on that day.</p>
+    
+<div class="container-fluid">
+  <div class="row">
+    <div class="col-sm-4">Monday</div>
+    <div class="col-sm-4">Macoroni</div>
+    <div class="col-sm-4">Marco's Pizza</div>
+  </div>
+    <div class="row">
+    <div class="col-sm-4">Tuesday</div>
+    <div class="col-sm-4">Tacos</div>
+    <div class="col-sm-4">Tacobell</div>
+  </div>
+    <div class="row">
+    <div class="col-sm-4">Wednesday</div>
+    <div class="col-sm-4">Wasabi</div>
+    <div class="col-sm-4">Wild Wings 'N Things</div>
+  </div>
+    <div class="row">
+    <div class="col-sm-4">Thursday</div>
+    <div class="col-sm-4">Tea</div>
+    <div class="col-sm-4">Tim Hortons</div>
+  </div>
+    <div class="row">
+    <div class="col-sm-4">Friday</div>
+    <div class="col-sm-4">French Fries</div>
+    <div class="col-sm-4">Fiveguys</div>
+  </div>
+    <div class="row">
+    <div class="col-sm-4">Saturday</div>
+    <div class="col-sm-4">Sausages</div>
+    <div class="col-sm-4">Sushi Express</div>
+  </div>
+    <div class="row">
+    <div class="col-sm-4">Sunday</div>
+    <div class="col-sm-4">Salad</div>
+    <div class="col-sm-4">Subway</div>
+  </div>
+</div>
+        
+    <br>
 
 </body>
